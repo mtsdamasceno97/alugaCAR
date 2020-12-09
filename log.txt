@@ -1,0 +1,60 @@
+[EL Fine]: server: 2020-12-08 23:37:33.985--Thread(Thread[main,5,main])--Configured server platform: org.eclipse.persistence.platform.server.NoServerPlatform
+[EL Config]: metadata: 2020-12-08 23:37:34.141--ServerSession(963110412)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Veiculo] is set to [FIELD].
+[EL Config]: metadata: 2020-12-08 23:37:34.172--ServerSession(963110412)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field alugueis] is being defaulted to: class modelo.Aluguel.
+[EL Config]: metadata: 2020-12-08 23:37:34.172--ServerSession(963110412)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Aluguel] is set to [FIELD].
+[EL Config]: metadata: 2020-12-08 23:37:34.172--ServerSession(963110412)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field veiculo] is being defaulted to: class modelo.Veiculo.
+[EL Config]: metadata: 2020-12-08 23:37:34.172--ServerSession(963110412)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field cliente] is being defaulted to: class modelo.Cliente.
+[EL Config]: metadata: 2020-12-08 23:37:34.172--ServerSession(963110412)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Cliente] is set to [FIELD].
+[EL Config]: metadata: 2020-12-08 23:37:34.172--ServerSession(963110412)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field alugueis] is being defaulted to: class modelo.Aluguel.
+[EL Config]: metadata: 2020-12-08 23:37:34.172--ServerSession(963110412)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Veiculo] is being defaulted to: Veiculo.
+[EL Config]: metadata: 2020-12-08 23:37:34.188--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [marca] is being defaulted to: MARCA.
+[EL Config]: metadata: 2020-12-08 23:37:34.188--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [ano] is being defaulted to: ANO.
+[EL Config]: metadata: 2020-12-08 23:37:34.188--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2020-12-08 23:37:34.188--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [modelo] is being defaulted to: MODELO.
+[EL Config]: metadata: 2020-12-08 23:37:34.188--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [versao] is being defaulted to: VERSAO.
+[EL Config]: metadata: 2020-12-08 23:37:34.188--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [placa] is being defaulted to: PLACA.
+[EL Config]: metadata: 2020-12-08 23:37:34.188--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [disponiveis] is being defaulted to: DISPONIVEIS.
+[EL Config]: metadata: 2020-12-08 23:37:34.188--ServerSession(963110412)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Aluguel] is being defaulted to: Aluguel.
+[EL Config]: metadata: 2020-12-08 23:37:34.188--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [valorDiaria] is being defaulted to: VALORDIARIA.
+[EL Config]: metadata: 2020-12-08 23:37:34.188--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [dataAluguel] is being defaulted to: DATAALUGUEL.
+[EL Config]: metadata: 2020-12-08 23:37:34.188--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2020-12-08 23:37:34.188--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [dataDevolucao] is being defaulted to: DATADEVOLUCAO.
+[EL Config]: metadata: 2020-12-08 23:37:34.203--ServerSession(963110412)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Cliente] is being defaulted to: Cliente.
+[EL Config]: metadata: 2020-12-08 23:37:34.203--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [nascimento] is being defaulted to: NASCIMENTO.
+[EL Config]: metadata: 2020-12-08 23:37:34.203--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [endereco] is being defaulted to: ENDERECO.
+[EL Config]: metadata: 2020-12-08 23:37:34.203--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [cpf] is being defaulted to: CPF.
+[EL Config]: metadata: 2020-12-08 23:37:34.203--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [nome] is being defaulted to: NOME.
+[EL Config]: metadata: 2020-12-08 23:37:34.203--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2020-12-08 23:37:34.219--ServerSession(963110412)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field alugueis] is being defaulted to: ID.
+[EL Config]: metadata: 2020-12-08 23:37:34.219--ServerSession(963110412)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field veiculo] is being defaulted to: ID.
+[EL Config]: metadata: 2020-12-08 23:37:34.219--ServerSession(963110412)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field cliente] is being defaulted to: ID.
+[EL Config]: metadata: 2020-12-08 23:37:34.219--ServerSession(963110412)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field alugueis] is being defaulted to: ID.
+[EL Info]: 2020-12-08 23:37:34.359--ServerSession(963110412)--Thread(Thread[main,5,main])--EclipseLink, version: Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d
+[EL Fine]: connection: 2020-12-08 23:37:34.469--Thread(Thread[main,5,main])--Detected database platform: org.eclipse.persistence.platform.database.PostgreSQLPlatform
+[EL Fine]: connection: 2020-12-08 23:37:34.484--ServerSession(963110412)--Connection(1436633036)--Thread(Thread[main,5,main])--connecting(DatabaseLogin(
+	platform=>PostgreSQLPlatform
+	user name=> "postgres"
+	datasource URL=> "jdbc:postgresql://localhost:5432/projeto2"
+))
+[EL Config]: connection: 2020-12-08 23:37:34.62--ServerSession(963110412)--Connection(1908043086)--Thread(Thread[main,5,main])--Connected: jdbc:postgresql://localhost:5432/projeto2
+	User: postgres
+	Database: PostgreSQL  Version: 12.0
+	Driver: PostgreSQL Native Driver  Version: PostgreSQL 9.4 JDBC4.1 (build 1206)
+[EL Fine]: connection: 2020-12-08 23:37:34.667--ServerSession(963110412)--Thread(Thread[main,5,main])--/file:/C:/Users/Mateu/Downloads/Semana10-trigger/projetoAluguel-JPA/target/classes/_agenda-eclipselink-postgres login successful
+[EL Fine]: sql: 2020-12-08 23:37:34.901--ServerSession(963110412)--Connection(1908043086)--Thread(Thread[main,5,main])--SELECT ID, CPF, ENDERECO, NASCIMENTO, NOME FROM tb_cliente WHERE (CPF = ?)
+	bind => [2568748712]
+[EL Fine]: sql: 2020-12-08 23:37:34.933--ClientSession(94830685)--Connection(1908043086)--Thread(Thread[main,5,main])--UPDATE tb_aluguel SET cliente_id = ? WHERE (cliente_id = ?)
+	bind => [null, 1]
+[EL Fine]: sql: 2020-12-08 23:37:34.933--ClientSession(94830685)--Connection(1908043086)--Thread(Thread[main,5,main])--DELETE FROM tb_cliente WHERE (ID = ?)
+	bind => [1]
+[EL Fine]: sql: 2020-12-08 23:37:34.964--ServerSession(963110412)--Connection(1908043086)--Thread(Thread[main,5,main])--SELECT ID, ANO, DISPONIVEIS, MARCA, MODELO, PLACA, VERSAO FROM tb_veiculo WHERE (PLACA = ?)
+	bind => [AYT5578]
+[EL Fine]: sql: 2020-12-08 23:37:34.964--ServerSession(963110412)--Connection(1908043086)--Thread(Thread[main,5,main])--SELECT ID, DATAALUGUEL, DATADEVOLUCAO, VALORDIARIA, cliente_id, veiculo_id FROM tb_aluguel WHERE (veiculo_id = ?)
+	bind => [2]
+[EL Fine]: sql: 2020-12-08 23:37:34.979--ServerSession(963110412)--Connection(1908043086)--Thread(Thread[main,5,main])--SELECT ID, CPF, ENDERECO, NASCIMENTO, NOME FROM tb_cliente WHERE (ID = ?)
+	bind => [2]
+[EL Fine]: sql: 2020-12-08 23:37:34.979--ClientSession(547923534)--Connection(1908043086)--Thread(Thread[main,5,main])--SELECT ID, DATAALUGUEL, DATADEVOLUCAO, VALORDIARIA, cliente_id, veiculo_id FROM tb_aluguel WHERE (cliente_id = ?)
+	bind => [2]
+[EL Fine]: connection: 2020-12-08 23:37:34.995--ServerSession(963110412)--Connection(1908043086)--Thread(Thread[main,5,main])--disconnect
+[EL Fine]: connection: 2020-12-08 23:37:34.995--ServerSession(963110412)--Thread(Thread[main,5,main])--/file:/C:/Users/Mateu/Downloads/Semana10-trigger/projetoAluguel-JPA/target/classes/_agenda-eclipselink-postgres logout successful
+[EL Fine]: connection: 2020-12-08 23:37:34.995--ServerSession(963110412)--Connection(1436633036)--Thread(Thread[main,5,main])--disconnect

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+
+	<!--  ECLIPSELINK  -->
+	<persistence-unit name="agenda-eclipselink-postgres" transaction-type="RESOURCE_LOCAL">
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		<exclude-unlisted-classes>false</exclude-unlisted-classes>
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
+		 <!--     <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://54.94.169.84:5432/agenda" /> -->
+	   <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/projeto2" />
+		    <property name="javax.persistence.jdbc.user" value="postgres" />
+		    <property name="javax.persistence.jdbc.password" value="1301md" />
+    		<property name="javax.persistence.schema-generation.database.action" value="create"/>
+            <property name="javax.persistence.schema-generation.scripts.action" value="create"/>
+            <property name="javax.persistence.schema-generation.scripts.create-target" value="ddl.txt"/>
+		    <property name="eclipselink.logging.level" value="fine"/>
+		    <property name="eclipselink.logging.file" value="log.txt"/>
+		</properties>
+	</persistence-unit>
+
+	<persistence-unit name="agenda-eclipselink-mysql" transaction-type="RESOURCE_LOCAL">
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		<exclude-unlisted-classes>false</exclude-unlisted-classes>
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+		    <property name="javax.persistence.jdbc.url"  value="jdbc:mysql://127.0.0.1:3306/agenda?createDatabaseIfNotExist=true" />
+		    <property name="javax.persistence.jdbc.user"  value="root" />
+		    <property name="javax.persistence.jdbc.password" value="" />
+			<property name="javax.persistence.schema-generation.database.action" value="create"/>
+            <property name="javax.persistence.schema-generation.scripts.action" value="create"/>
+            <property name="javax.persistence.schema-generation.scripts.create-target" value="ddl.txt"/>
+		    <property name="eclipselink.logging.level" value="fine"/>
+		    <property name="eclipselink.logging.file" value="log.txt"/>
+		</properties>
+	</persistence-unit>
+			
+	<!--  HIBERNATE  -->
+	<persistence-unit name="agenda-hibernate-postgres" transaction-type="RESOURCE_LOCAL">
+		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+		<exclude-unlisted-classes>false</exclude-unlisted-classes>
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
+		    <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/agenda" />
+		    <property name="javax.persistence.jdbc.user" value="postgres" />
+		    <property name="javax.persistence.jdbc.password" value="1301md" />
+ 		    
+		    <property name="hibernate.dialect"   		value="org.hibernate.dialect.PostgreSQL95Dialect" />
+   			<property name="hibernate.hbm2ddl.auto" 	value="update" />  
+   			<property name="hibernate.generate_statistics" 	value="false" />  
+   			<property name="hibernate.format_sql" 		value="true" />
+   			<property name="hibernate.show_sql" 		value="false" /> 
+			<property name="hibernate.use_sql_comments" value="true" /> 
+		</properties>
+	</persistence-unit>	
+	
+	<persistence-unit name="agenda-hibernate-mysql" transaction-type="RESOURCE_LOCAL">
+		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+		<exclude-unlisted-classes>false</exclude-unlisted-classes>
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+		    <property name="javax.persistence.jdbc.url"  value="jdbc:mysql://127.0.0.1:3306/agenda" />
+		    <property name="javax.persistence.jdbc.user"  value="root" />
+		    <property name="javax.persistence.jdbc.password" value="" />
+		    
+			<property name="hibernate.dialect"   		value="org.hibernate.dialect.MySQL5Dialect" />
+   			<property name="hibernate.hbm2ddl.auto" 	value="update" />  
+  			<property name="hibernate.generate_statistics" 	value="false" />  
+   			<property name="hibernate.show_sql" 		value="false" />  <!-- mostra na console -->
+			<property name="hibernate.use_sql_comments" value="false" /> 
+  	 		<property name="hibernate.format_sql" 		value="true" />
+		</properties>
+	</persistence-unit>		
+		
+		
+	<!--  OUTROS BANCO DE DADOS  -->
+	<persistence-unit name="agenda-eclipselink-oracle" transaction-type="RESOURCE_LOCAL">
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		<exclude-unlisted-classes>false</exclude-unlisted-classes>
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver" />
+		    <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:XE/agenda" />
+		    <property name="javax.persistence.jdbc.user" value="system" />
+		    <property name="javax.persistence.jdbc.password" value="manager" />
+		    
+			<property name="javax.persistence.schema-generation.database.action" value="create"/>
+            <property name="javax.persistence.schema-generation.scripts.action" value="create"/>  
+            <property name="javax.persistence.schema-generation.scripts.create-target" value="ddl.txt"/>
+		    <property name="eclipselink.logging.level" value="fine"/>	    
+		    <property name="eclipselink.logging.file" value="log.txt"/>	
+		</properties>	
+	</persistence-unit>	
+	
+	<persistence-unit name="agenda-eclipselink-derby" transaction-type="RESOURCE_LOCAL">
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		<exclude-unlisted-classes>false</exclude-unlisted-classes>
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver" />
+		    <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/agenda;create=true" />
+		    <property name="javax.persistence.jdbc.user" value="minha" />
+		    <property name="javax.persistence.jdbc.password" value="minha" />
+		    
+			<property name="javax.persistence.schema-generation.database.action" value="create"/>
+            <property name="javax.persistence.schema-generation.scripts.action" value="create"/>  
+            <property name="javax.persistence.schema-generation.scripts.create-target" value="ddl.txt"/>
+		    <property name="eclipselink.logging.level" value="fine"/>	    
+		    <property name="eclipselink.logging.file" value="log.txt"/>	
+		</properties>	
+	</persistence-unit>
+		
+</persistence>
