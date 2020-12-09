@@ -1,15 +1,9 @@
 package aplicacaoSwing;
-/**********************************
- * IFPB - Curso Superior de Tec. em Sist. para Internet
- * Programação Orientada a Objetos
- * Prof. Fausto Maranhão Ayres
- **********************************/
+
 
 import java.awt.EventQueue;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
@@ -19,21 +13,24 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 
+import antlr.collections.List;
+import aplicacaoSwing.TelaListarCliente;
 import fachada.Fachada;
 import java.awt.Cursor;
 
 public class TelaPrincipal {
 
     private JFrame frame;
-    private JMenu mnConsulta;
-    private JMenu mnTelefone;
+
+    private JMenu mnVeiculo;
     private JMenu mnCliente;
+    private JMenu mnAluguel;
     private JMenuItem mntmCadastrarCliente;
-    private JMenuItem mntmApagarPessoa;
-    private JMenuItem mntmListarPessoa;
-    private JMenuItem mntmCadastrarTelefone;
-    private JMenuItem mntmApagarTelefone;
-    private JMenuItem mntmListarTelefone;
+    private JMenuItem mntmListarCliente;
+    private JMenuItem mntmCadastrarVeiculo;
+    private JMenuItem mntmListarVeiculo;
+    private JMenuItem mntmCadastrarAluguel;
+    private JMenuItem mntmListarAluguel;
 
     /**
      * Launch the application.
@@ -91,72 +88,63 @@ public class TelaPrincipal {
         frame.setJMenuBar(menuBar);
         mnCliente = new JMenu("Cliente");
         menuBar.add(mnCliente);
+        mnVeiculo = new JMenu("Veiculo");
+        menuBar.add(mnVeiculo);
+        mnAluguel = new JMenu("Aluguel");
+        menuBar.add(mnAluguel);
+
+
 
         mntmCadastrarCliente = new JMenuItem("Cadastrar");
         mntmCadastrarCliente.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent arg0) {
-                TelaCadastrar tela = new TelaCadastrar();
+                TelaCadastrarCliente tela = new TelaCadastrarCliente();
             }
 
         });
         mnCliente.add(mntmCadastrarCliente);
 
-//        mntmApagarPessoa = new JMenuItem("Apagar");
-//        mntmApagarPessoa.addActionListener(new ActionListener() {
-//            public void actionPerformed(ActionEvent e) {
-//                TelaApagar tela = new TelaApagar();
-//            }
-//        });
-//        mnPessoa.add(mntmApagarPessoa);
-//
-//
-//        mntmListarPessoa = new JMenuItem("Listar");
-//        mntmListarPessoa.addActionListener(new ActionListener() {
-//            public void actionPerformed(ActionEvent arg0) {
-//                TelaListarConsultar tela = new TelaListarConsultar();
-//            }
-//        });
-//        mnPessoa.add(mntmListarPessoa);
-//
-//        //-----------------------------------------------------------------
-//        mnTelefone = new JMenu("Telefone");
-//        menuBar.add(mnTelefone);
-//
-//        mntmCadastrarTelefone = new JMenuItem("Cadastrar");
-//        mntmCadastrarTelefone.addActionListener(new ActionListener() {
-//            public void actionPerformed(ActionEvent arg0) {
-//                TelaCadastrar tela = new TelaCadastrar();
-//            }
-//        });
-//        mnTelefone.add(mntmCadastrarTelefone);
-//
-//        mntmApagarTelefone = new JMenuItem("Apagar");
-//        mntmApagarTelefone.addActionListener(new ActionListener() {
-//            public void actionPerformed(ActionEvent e) {
-//                TelaApagar tela = new TelaApagar();
-//            }
-//        });
-//        mnTelefone.add(mntmApagarTelefone);
-//
-//
-//        mntmListarTelefone = new JMenuItem("Listar");
-//        mntmListarTelefone.addActionListener(new ActionListener() {
-//            public void actionPerformed(ActionEvent e) {
-//                TelaListarConsultar tela = new TelaListarConsultar();
-//            }
-//        });
-//        mnTelefone.add(mntmListarTelefone);
-//
-//
-//        mnConsulta = new JMenu("Consultas");
-//        menuBar.add(mnConsulta);
-//        mnConsulta.addMouseListener(new MouseAdapter() {
-//            @Override
-//            public void mouseClicked(MouseEvent arg0) {
-//                TelaListarConsultar tela = new TelaListarConsultar();
-//            }
-//        });
-//
-//    }
+        mntmListarCliente = new JMenuItem("Listar");
+        mntmListarCliente.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent arg0) { TelaListarCliente tela = new TelaListarCliente();}
+
+        });
+
+        mnCliente.add(mntmListarCliente);
+
+
+        mntmCadastrarVeiculo = new JMenuItem("Cadastrar");
+        mntmCadastrarVeiculo.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent arg0) {
+                TelaCadastrarVeiculo tela = new TelaCadastrarVeiculo();
+            }
+
+        });
+        mnVeiculo.add(mntmCadastrarVeiculo);
+
+        mntmListarVeiculo = new JMenuItem("Listar");
+        mntmListarVeiculo.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent arg0) { TelaListarVeiculo tela = new TelaListarVeiculo();}
+
+        });
+
+        mnVeiculo.add(mntmListarVeiculo);
+
+        mntmCadastrarAluguel = new JMenuItem("Cadastrar");
+        mntmCadastrarAluguel.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent arg0) {
+                TelaCadastrarAluguel tela = new TelaCadastrarAluguel();
+            }
+
+        });
+        mnAluguel.add(mntmCadastrarAluguel);
+
+        mntmListarAluguel = new JMenuItem("Listar");
+        mntmListarAluguel.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent arg0) { TelaListarAluguel tela = new TelaListarAluguel();}
+
+        });
+
+        mnAluguel.add(mntmListarAluguel);
     }
 }

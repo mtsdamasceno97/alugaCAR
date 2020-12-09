@@ -12,7 +12,7 @@ import javax.swing.SwingConstants;
 
 import fachada.Fachada;
 
-public class TelaCadastrar {
+public class TelaCadastrarCliente {
     private JFrame frame;
     private JLabel label_1;
     private JLabel label_2;
@@ -26,7 +26,7 @@ public class TelaCadastrar {
     private JTextField textField_3;
     private JButton button;
 
-    public TelaCadastrar() {
+    public TelaCadastrarCliente() {
         initialize();
     }
 
@@ -45,18 +45,18 @@ public class TelaCadastrar {
         frame.getContentPane().add(label_1);
 
         textField = new JTextField();
-        textField.setBounds(91, 23, 121, 20);
+        textField.setBounds(91, 25, 121, 20);
         frame.getContentPane().add(textField);
         textField.setColumns(10);
 
-        label_2 = new JLabel("nascimento:");
+        label_2 = new JLabel("nasc:");
         label_2.setHorizontalAlignment(SwingConstants.RIGHT);
         label_2.setFont(new Font("Tahoma", Font.PLAIN, 12));
-        label_2.setBounds(5, 50, 100, 14);
+        label_2.setBounds(5, 50, 71, 14);
         frame.getContentPane().add(label_2);
 
         textField_1 = new JTextField();
-        textField_1.setBounds(91, 51, 86, 20);
+        textField_1.setBounds(91, 50, 121, 20);
         frame.getContentPane().add(textField_1);
         textField_1.setColumns(10);
 
@@ -64,11 +64,11 @@ public class TelaCadastrar {
         label_3 = new JLabel("endereco:");
         label_3.setHorizontalAlignment(SwingConstants.RIGHT);
         label_3.setFont(new Font("Tahoma", Font.PLAIN, 12));
-        label_3.setBounds(5, 80, 71, 14);
+        label_3.setBounds(5, 75, 71, 14);
         frame.getContentPane().add(label_3);
 
         textField_2 = new JTextField();
-        textField_2.setBounds(91, 71, 86, 20);
+        textField_2.setBounds(91, 75, 121, 20);
         frame.getContentPane().add(textField_2);
         textField_2.setColumns(10);
 
@@ -80,18 +80,17 @@ public class TelaCadastrar {
         frame.getContentPane().add(label_4);
 
         textField_3 = new JTextField();
-        textField_3.setBounds(91, 91, 86, 20);
+        textField_3.setBounds(91, 100, 121, 20);
         frame.getContentPane().add(textField_3);
         textField_3.setColumns(10);
 
 
         label_5 = new JLabel("");
-        label_5.setBounds(5, 200, 227, 14);
+        label_5.setBounds(5, 125, 227, 14);
         frame.getContentPane().add(label_5);
 
         button = new JButton("Cadastrar");
         button.setFont(new Font("Tahoma", Font.PLAIN, 12));
-        button.setBounds(30, 250,50,15);
         button.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent arg0) {
                 try {
@@ -112,7 +111,7 @@ public class TelaCadastrar {
                 }
             }
         });
-        button.setBounds(69, 94, 108, 23);
+        button.setBounds(69, 150, 108, 23);
         frame.getContentPane().add(button);
 
         frame.setVisible(true);

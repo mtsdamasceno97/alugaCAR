@@ -11,8 +11,7 @@ import java.util.Objects;
 
 
 @Entity
-//@EntityListeners( Trigger.class )  // CLASSE QUE IMPLEMENTA OS EVENTOS (TRIGGERS)
-@Table(name = "tb_aluguel")
+@Table(name = "tb_aluguel_20162370022_20171370027")
 public class Aluguel {
 
     @Id

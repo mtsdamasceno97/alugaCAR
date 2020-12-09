@@ -22,7 +22,7 @@ public class Alterar {
 			System.out.println("\nNome alterado com sucesso");
 			Fachada.alterarDataDevolucao("ABC1245","28/12/2020");
 			System.out.println("\nData de devolução modificada com sucesso!!!");
-
+			Fachada.alterarPlaca("ABC1245", "APC1246");
 		}
 
 		catch (Exception e) {

@@ -7,8 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-//@EntityListeners( Trigger.class )
-@Table(name = "tb_veiculo", indexes = {@Index(name = "index_placa", columnList = "placa")})
+@Table(name = "tb_veiculo_20162370022_20171370027", indexes = {@Index(name = "index_placa", columnList = "placa")})
 public class Veiculo {
 
     @Id

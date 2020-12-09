@@ -19,9 +19,9 @@ public class Cadastrar {
 
 			System.out.println("===================== Cadastrando Clientes !!! =====================");
 
-			Fachada.cadastrarCliente("Mateus","13/01/1997","Teste","2568748712");
-			Fachada.cadastrarCliente("Bruno","13/10/1997","Teste 2","2164747712");
-			Fachada.cadastrarCliente("Mauricio","13/03/1997","Teste 3","1568748712");
+			Fachada.cadastrarCliente("Mateus","13/01/1997","Teste","25687487125");
+			Fachada.cadastrarCliente("Bruno","13/10/1997","Teste 2","21647477127");
+			Fachada.cadastrarCliente("Mauricio","13/03/1997","Teste 3","15687487129");
 			Fachada.cadastrarCliente("Fausto","13/08/1997","Teste 4","3558748712");
 
 			System.out.println("======================== Fim de Cadastro !!! =====================\n");
@@ -34,9 +34,9 @@ public class Cadastrar {
 			System.out.println("======================== Fim de Cadastro !!! =====================\n");
 			System.out.println("===================== Cadastrando Alugueis !!! =====================");
 
-			Fachada.cadastrarAluguel("25/12/2020",151, Fachada.consultarClientesPorCpf("2568748712"), Fachada.consultarVeiculo("ABC1245"));
-			Fachada.cadastrarAluguel("04/01/2021",54, Fachada.consultarClientesPorCpf("2164747712"), Fachada.consultarVeiculo("AYT5578"));
-			Fachada.cadastrarAluguel("12/12/2020",85, Fachada.consultarClientesPorCpf("2568748712"), Fachada.consultarVeiculo("IUT1845"));
+			Fachada.cadastrarAluguel("25/12/2020",151, Fachada.consultarClientesPorCpf("25687487125"), Fachada.consultarVeiculo("ABC1245"));
+			Fachada.cadastrarAluguel("04/01/2021",54, Fachada.consultarClientesPorCpf("21647477127"), Fachada.consultarVeiculo("AYT5578"));
+			Fachada.cadastrarAluguel("12/12/2020",85, Fachada.consultarClientesPorCpf("15687487129"), Fachada.consultarVeiculo("IUT1845"));
 
 			System.out.println("======================== Fim de Cadastro !!! =====================\n");
 

@@ -14,16 +14,11 @@ import javax.persistence.PrePersist;
 import modelo.Cliente;
 
 
-public class Trigger{  // usada pelas classes Pessoa e Telefone
+public class Trigger{
 
 	@PrePersist
 	public void exibirmsg1(Object obj) throws Exception {
 		System.out.println(" @PrePersist... " + obj);
-
-		//cancelar transacao
-		//------------------
-//		if (obj instanceof Telefone && ((Telefone) obj).getNumero().startsWith("3"))
-//			throw new PersistenceException("\n -------nao pode cadastrar");
 	}
 
 	@PostPersist

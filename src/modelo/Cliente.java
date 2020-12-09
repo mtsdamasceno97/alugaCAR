@@ -16,7 +16,7 @@ import org.eclipse.persistence.annotations.Indexes;
 
 
 @Entity
-@Table(name = "tb_cliente", indexes = {@Index(name = "index_nome", columnList = "nome")})
+@Table(name = "tb_cliente_20162370022_20171370027", indexes = {@Index(name = "index_nome", columnList = "nome")})
 @EntityListeners( Trigger.class )  // CLASSE QUE IMPLEMENTA OS EVENTOS (TRIGGERS)
 public class Cliente {
 
@@ -32,14 +32,14 @@ public class Cliente {
     @Transient
     private int idade;
 
-	@OneToMany
+	@OneToMany(fetch = FetchType.EAGER)
 	@JoinColumn(name = "cliente_id")
 	private List<Aluguel> alugueis = new ArrayList<Aluguel>();
 
 	@Column(length = 100)
 	private String endereco;
 	
-	@Column(length = 15, unique = true)
+	@Column(length = 11, unique = true)
 	private String cpf;
 
 	public Cliente (){}
@@ -145,9 +145,21 @@ public class Cliente {
 				", nome='" + nome + '\'' +
 				", nascimento='" + nascimento + '\'' +
 				", idade=" + idade +
-				", alugueis=" + alugueis +
+				listarAlugueis() +
 				", endereco='" + endereco + '\'' +
 				", cpf='" + cpf + '\'' +
 				'}';
+	}
+
+	private String listarAlugueis() {
+		List<Aluguel> clientesAlugueis = this.alugueis;
+		String texto = "";
+		SimpleDateFormat formato = new SimpleDateFormat("dd/MM/yyyy");
+		//Date dataDevolucaoF = formato.parse(dataDevolucao);
+		for (Aluguel a : clientesAlugueis) {
+			String data = formato.format(a.getDataDevolucao());
+			texto += ", Aluguel"+ "(" + " id: " + a.getId() + " /" + " Data de Devolução: " + data + ")";
+		}
+		return texto;
 	}
 }

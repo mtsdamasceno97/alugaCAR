@@ -1,60 +1,97 @@
-[EL Fine]: server: 2020-12-08 23:37:33.985--Thread(Thread[main,5,main])--Configured server platform: org.eclipse.persistence.platform.server.NoServerPlatform
-[EL Config]: metadata: 2020-12-08 23:37:34.141--ServerSession(963110412)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Veiculo] is set to [FIELD].
-[EL Config]: metadata: 2020-12-08 23:37:34.172--ServerSession(963110412)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field alugueis] is being defaulted to: class modelo.Aluguel.
-[EL Config]: metadata: 2020-12-08 23:37:34.172--ServerSession(963110412)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Aluguel] is set to [FIELD].
-[EL Config]: metadata: 2020-12-08 23:37:34.172--ServerSession(963110412)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field veiculo] is being defaulted to: class modelo.Veiculo.
-[EL Config]: metadata: 2020-12-08 23:37:34.172--ServerSession(963110412)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field cliente] is being defaulted to: class modelo.Cliente.
-[EL Config]: metadata: 2020-12-08 23:37:34.172--ServerSession(963110412)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Cliente] is set to [FIELD].
-[EL Config]: metadata: 2020-12-08 23:37:34.172--ServerSession(963110412)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field alugueis] is being defaulted to: class modelo.Aluguel.
-[EL Config]: metadata: 2020-12-08 23:37:34.172--ServerSession(963110412)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Veiculo] is being defaulted to: Veiculo.
-[EL Config]: metadata: 2020-12-08 23:37:34.188--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [marca] is being defaulted to: MARCA.
-[EL Config]: metadata: 2020-12-08 23:37:34.188--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [ano] is being defaulted to: ANO.
-[EL Config]: metadata: 2020-12-08 23:37:34.188--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
-[EL Config]: metadata: 2020-12-08 23:37:34.188--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [modelo] is being defaulted to: MODELO.
-[EL Config]: metadata: 2020-12-08 23:37:34.188--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [versao] is being defaulted to: VERSAO.
-[EL Config]: metadata: 2020-12-08 23:37:34.188--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [placa] is being defaulted to: PLACA.
-[EL Config]: metadata: 2020-12-08 23:37:34.188--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [disponiveis] is being defaulted to: DISPONIVEIS.
-[EL Config]: metadata: 2020-12-08 23:37:34.188--ServerSession(963110412)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Aluguel] is being defaulted to: Aluguel.
-[EL Config]: metadata: 2020-12-08 23:37:34.188--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [valorDiaria] is being defaulted to: VALORDIARIA.
-[EL Config]: metadata: 2020-12-08 23:37:34.188--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [dataAluguel] is being defaulted to: DATAALUGUEL.
-[EL Config]: metadata: 2020-12-08 23:37:34.188--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
-[EL Config]: metadata: 2020-12-08 23:37:34.188--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [dataDevolucao] is being defaulted to: DATADEVOLUCAO.
-[EL Config]: metadata: 2020-12-08 23:37:34.203--ServerSession(963110412)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Cliente] is being defaulted to: Cliente.
-[EL Config]: metadata: 2020-12-08 23:37:34.203--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [nascimento] is being defaulted to: NASCIMENTO.
-[EL Config]: metadata: 2020-12-08 23:37:34.203--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [endereco] is being defaulted to: ENDERECO.
-[EL Config]: metadata: 2020-12-08 23:37:34.203--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [cpf] is being defaulted to: CPF.
-[EL Config]: metadata: 2020-12-08 23:37:34.203--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [nome] is being defaulted to: NOME.
-[EL Config]: metadata: 2020-12-08 23:37:34.203--ServerSession(963110412)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
-[EL Config]: metadata: 2020-12-08 23:37:34.219--ServerSession(963110412)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field alugueis] is being defaulted to: ID.
-[EL Config]: metadata: 2020-12-08 23:37:34.219--ServerSession(963110412)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field veiculo] is being defaulted to: ID.
-[EL Config]: metadata: 2020-12-08 23:37:34.219--ServerSession(963110412)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field cliente] is being defaulted to: ID.
-[EL Config]: metadata: 2020-12-08 23:37:34.219--ServerSession(963110412)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field alugueis] is being defaulted to: ID.
-[EL Info]: 2020-12-08 23:37:34.359--ServerSession(963110412)--Thread(Thread[main,5,main])--EclipseLink, version: Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d
-[EL Fine]: connection: 2020-12-08 23:37:34.469--Thread(Thread[main,5,main])--Detected database platform: org.eclipse.persistence.platform.database.PostgreSQLPlatform
-[EL Fine]: connection: 2020-12-08 23:37:34.484--ServerSession(963110412)--Connection(1436633036)--Thread(Thread[main,5,main])--connecting(DatabaseLogin(
+[EL Fine]: server: 2020-12-09 20:09:47.998--Thread(Thread[AWT-EventQueue-0,6,main])--Configured server platform: org.eclipse.persistence.platform.server.NoServerPlatform
+[EL Config]: metadata: 2020-12-09 20:09:48.195--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The access type for the persistent class [class modelo.Veiculo] is set to [FIELD].
+[EL Config]: metadata: 2020-12-09 20:09:48.231--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The target entity (reference) class for the one to many mapping element [field alugueis] is being defaulted to: class modelo.Aluguel.
+[EL Config]: metadata: 2020-12-09 20:09:48.234--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The access type for the persistent class [class modelo.Aluguel] is set to [FIELD].
+[EL Config]: metadata: 2020-12-09 20:09:48.235--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The target entity (reference) class for the many to one mapping element [field veiculo] is being defaulted to: class modelo.Veiculo.
+[EL Config]: metadata: 2020-12-09 20:09:48.235--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The target entity (reference) class for the many to one mapping element [field cliente] is being defaulted to: class modelo.Cliente.
+[EL Config]: metadata: 2020-12-09 20:09:48.237--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The access type for the persistent class [class modelo.Cliente] is set to [FIELD].
+[EL Config]: metadata: 2020-12-09 20:09:48.239--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The target entity (reference) class for the one to many mapping element [field alugueis] is being defaulted to: class modelo.Aluguel.
+[EL Config]: metadata: 2020-12-09 20:09:48.239--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The alias name for the entity class [class modelo.Veiculo] is being defaulted to: Veiculo.
+[EL Config]: metadata: 2020-12-09 20:09:48.257--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [marca] is being defaulted to: MARCA.
+[EL Config]: metadata: 2020-12-09 20:09:48.258--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [ano] is being defaulted to: ANO.
+[EL Config]: metadata: 2020-12-09 20:09:48.258--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2020-12-09 20:09:48.259--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [modelo] is being defaulted to: MODELO.
+[EL Config]: metadata: 2020-12-09 20:09:48.259--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [versao] is being defaulted to: VERSAO.
+[EL Config]: metadata: 2020-12-09 20:09:48.261--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [placa] is being defaulted to: PLACA.
+[EL Config]: metadata: 2020-12-09 20:09:48.262--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [disponiveis] is being defaulted to: DISPONIVEIS.
+[EL Config]: metadata: 2020-12-09 20:09:48.262--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The alias name for the entity class [class modelo.Aluguel] is being defaulted to: Aluguel.
+[EL Config]: metadata: 2020-12-09 20:09:48.263--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [valorDiaria] is being defaulted to: VALORDIARIA.
+[EL Config]: metadata: 2020-12-09 20:09:48.263--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [dataAluguel] is being defaulted to: DATAALUGUEL.
+[EL Config]: metadata: 2020-12-09 20:09:48.263--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2020-12-09 20:09:48.264--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [dataDevolucao] is being defaulted to: DATADEVOLUCAO.
+[EL Config]: metadata: 2020-12-09 20:09:48.267--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The alias name for the entity class [class modelo.Cliente] is being defaulted to: Cliente.
+[EL Config]: metadata: 2020-12-09 20:09:48.268--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [nascimento] is being defaulted to: NASCIMENTO.
+[EL Config]: metadata: 2020-12-09 20:09:48.268--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [endereco] is being defaulted to: ENDERECO.
+[EL Config]: metadata: 2020-12-09 20:09:48.269--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [cpf] is being defaulted to: CPF.
+[EL Config]: metadata: 2020-12-09 20:09:48.269--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [nome] is being defaulted to: NOME.
+[EL Config]: metadata: 2020-12-09 20:09:48.27--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2020-12-09 20:09:48.29--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The primary key column name for the mapping element [field alugueis] is being defaulted to: ID.
+[EL Config]: metadata: 2020-12-09 20:09:48.295--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The primary key column name for the mapping element [field veiculo] is being defaulted to: ID.
+[EL Config]: metadata: 2020-12-09 20:09:48.295--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The primary key column name for the mapping element [field cliente] is being defaulted to: ID.
+[EL Config]: metadata: 2020-12-09 20:09:48.295--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--The primary key column name for the mapping element [field alugueis] is being defaulted to: ID.
+[EL Info]: 2020-12-09 20:09:48.399--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--EclipseLink, version: Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d
+[EL Fine]: connection: 2020-12-09 20:09:48.674--Thread(Thread[AWT-EventQueue-0,6,main])--Detected database platform: org.eclipse.persistence.platform.database.PostgreSQLPlatform
+[EL Fine]: connection: 2020-12-09 20:09:48.681--ServerSession(672729160)--Connection(167303127)--Thread(Thread[AWT-EventQueue-0,6,main])--connecting(DatabaseLogin(
 	platform=>PostgreSQLPlatform
 	user name=> "postgres"
-	datasource URL=> "jdbc:postgresql://localhost:5432/projeto2"
+	datasource URL=> "jdbc:postgresql://54.94.169.84:5432/projeto2"
 ))
-[EL Config]: connection: 2020-12-08 23:37:34.62--ServerSession(963110412)--Connection(1908043086)--Thread(Thread[main,5,main])--Connected: jdbc:postgresql://localhost:5432/projeto2
+[EL Config]: connection: 2020-12-09 20:09:48.883--ServerSession(672729160)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--Connected: jdbc:postgresql://54.94.169.84:5432/projeto2
 	User: postgres
-	Database: PostgreSQL  Version: 12.0
+	Database: PostgreSQL  Version: 9.6.7
 	Driver: PostgreSQL Native Driver  Version: PostgreSQL 9.4 JDBC4.1 (build 1206)
-[EL Fine]: connection: 2020-12-08 23:37:34.667--ServerSession(963110412)--Thread(Thread[main,5,main])--/file:/C:/Users/Mateu/Downloads/Semana10-trigger/projetoAluguel-JPA/target/classes/_agenda-eclipselink-postgres login successful
-[EL Fine]: sql: 2020-12-08 23:37:34.901--ServerSession(963110412)--Connection(1908043086)--Thread(Thread[main,5,main])--SELECT ID, CPF, ENDERECO, NASCIMENTO, NOME FROM tb_cliente WHERE (CPF = ?)
-	bind => [2568748712]
-[EL Fine]: sql: 2020-12-08 23:37:34.933--ClientSession(94830685)--Connection(1908043086)--Thread(Thread[main,5,main])--UPDATE tb_aluguel SET cliente_id = ? WHERE (cliente_id = ?)
-	bind => [null, 1]
-[EL Fine]: sql: 2020-12-08 23:37:34.933--ClientSession(94830685)--Connection(1908043086)--Thread(Thread[main,5,main])--DELETE FROM tb_cliente WHERE (ID = ?)
+[EL Fine]: connection: 2020-12-09 20:09:48.953--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--/file:/C:/Users/Mateu/Downloads/Semana10-trigger/projetoAluguel-JPA/target/classes/_agenda-eclipselink-postgres login successful
+[EL Fine]: sql: 2020-12-09 20:09:53.493--ServerSession(672729160)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, CPF, ENDERECO, NASCIMENTO, NOME FROM tb_cliente_20162370022_20171370027 ORDER BY ID
+[EL Fine]: sql: 2020-12-09 20:09:53.554--ServerSession(672729160)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DATAALUGUEL, DATADEVOLUCAO, VALORDIARIA, cliente_id, veiculo_id FROM tb_aluguel_20162370022_20171370027 WHERE (cliente_id = ?)
 	bind => [1]
-[EL Fine]: sql: 2020-12-08 23:37:34.964--ServerSession(963110412)--Connection(1908043086)--Thread(Thread[main,5,main])--SELECT ID, ANO, DISPONIVEIS, MARCA, MODELO, PLACA, VERSAO FROM tb_veiculo WHERE (PLACA = ?)
-	bind => [AYT5578]
-[EL Fine]: sql: 2020-12-08 23:37:34.964--ServerSession(963110412)--Connection(1908043086)--Thread(Thread[main,5,main])--SELECT ID, DATAALUGUEL, DATADEVOLUCAO, VALORDIARIA, cliente_id, veiculo_id FROM tb_aluguel WHERE (veiculo_id = ?)
+[EL Fine]: sql: 2020-12-09 20:09:53.617--ServerSession(672729160)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ANO, DISPONIVEIS, MARCA, MODELO, PLACA, VERSAO FROM tb_veiculo_20162370022_20171370027 WHERE (ID = ?)
+	bind => [1]
+[EL Fine]: sql: 2020-12-09 20:09:53.716--ServerSession(672729160)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DATAALUGUEL, DATADEVOLUCAO, VALORDIARIA, cliente_id, veiculo_id FROM tb_aluguel_20162370022_20171370027 WHERE (cliente_id = ?)
 	bind => [2]
-[EL Fine]: sql: 2020-12-08 23:37:34.979--ServerSession(963110412)--Connection(1908043086)--Thread(Thread[main,5,main])--SELECT ID, CPF, ENDERECO, NASCIMENTO, NOME FROM tb_cliente WHERE (ID = ?)
+[EL Fine]: sql: 2020-12-09 20:09:53.776--ServerSession(672729160)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ANO, DISPONIVEIS, MARCA, MODELO, PLACA, VERSAO FROM tb_veiculo_20162370022_20171370027 WHERE (ID = ?)
 	bind => [2]
-[EL Fine]: sql: 2020-12-08 23:37:34.979--ClientSession(547923534)--Connection(1908043086)--Thread(Thread[main,5,main])--SELECT ID, DATAALUGUEL, DATADEVOLUCAO, VALORDIARIA, cliente_id, veiculo_id FROM tb_aluguel WHERE (cliente_id = ?)
-	bind => [2]
-[EL Fine]: connection: 2020-12-08 23:37:34.995--ServerSession(963110412)--Connection(1908043086)--Thread(Thread[main,5,main])--disconnect
-[EL Fine]: connection: 2020-12-08 23:37:34.995--ServerSession(963110412)--Thread(Thread[main,5,main])--/file:/C:/Users/Mateu/Downloads/Semana10-trigger/projetoAluguel-JPA/target/classes/_agenda-eclipselink-postgres logout successful
-[EL Fine]: connection: 2020-12-08 23:37:34.995--ServerSession(963110412)--Connection(1436633036)--Thread(Thread[main,5,main])--disconnect
+[EL Fine]: sql: 2020-12-09 20:09:53.84--ServerSession(672729160)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DATAALUGUEL, DATADEVOLUCAO, VALORDIARIA, cliente_id, veiculo_id FROM tb_aluguel_20162370022_20171370027 WHERE (cliente_id = ?)
+	bind => [3]
+[EL Fine]: sql: 2020-12-09 20:09:53.898--ServerSession(672729160)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ANO, DISPONIVEIS, MARCA, MODELO, PLACA, VERSAO FROM tb_veiculo_20162370022_20171370027 WHERE (ID = ?)
+	bind => [3]
+[EL Fine]: sql: 2020-12-09 20:09:53.957--ServerSession(672729160)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DATAALUGUEL, DATADEVOLUCAO, VALORDIARIA, cliente_id, veiculo_id FROM tb_aluguel_20162370022_20171370027 WHERE (cliente_id = ?)
+	bind => [4]
+[EL Fine]: sql: 2020-12-09 20:09:54.02--ServerSession(672729160)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DATAALUGUEL, DATADEVOLUCAO, VALORDIARIA, cliente_id, veiculo_id FROM tb_aluguel_20162370022_20171370027 WHERE (cliente_id = ?)
+	bind => [5]
+[EL Fine]: sql: 2020-12-09 20:09:54.083--ServerSession(672729160)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ANO, DISPONIVEIS, MARCA, MODELO, PLACA, VERSAO FROM tb_veiculo_20162370022_20171370027 WHERE (ID = ?)
+	bind => [4]
+[EL Fine]: sql: 2020-12-09 20:10:18.462--ServerSession(672729160)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, CPF, ENDERECO, NASCIMENTO, NOME FROM tb_cliente_20162370022_20171370027 WHERE (CPF = ?)
+	bind => [12458963258]
+[EL Fine]: sql: 2020-12-09 20:10:18.529--ClientSession(1248497791)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--INSERT INTO tb_cliente_20162370022_20171370027 (CPF, ENDERECO, NASCIMENTO, NOME) VALUES (?, ?, ?, ?)
+	bind => [12458963258, Rua Teste2, 15/05/1998, Teste2]
+[EL Fine]: sql: 2020-12-09 20:10:18.588--ClientSession(1248497791)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--select lastval()
+[EL Fine]: sql: 2020-12-09 20:10:23.12--ServerSession(672729160)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, CPF, ENDERECO, NASCIMENTO, NOME FROM tb_cliente_20162370022_20171370027 ORDER BY ID
+[EL Fine]: sql: 2020-12-09 20:10:36.613--ServerSession(672729160)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ANO, DISPONIVEIS, MARCA, MODELO, PLACA, VERSAO FROM tb_veiculo_20162370022_20171370027 ORDER BY ID
+[EL Fine]: sql: 2020-12-09 20:10:59.935--ServerSession(672729160)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ANO, DISPONIVEIS, MARCA, MODELO, PLACA, VERSAO FROM tb_veiculo_20162370022_20171370027 WHERE (PLACA = ?)
+	bind => [IOT1254]
+[EL Fine]: sql: 2020-12-09 20:10:59.995--ClientSession(2027395771)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--INSERT INTO tb_veiculo_20162370022_20171370027 (ANO, DISPONIVEIS, MARCA, MODELO, PLACA, VERSAO) VALUES (?, ?, ?, ?, ?, ?)
+	bind => [2018, 4, Teste2, teste2, IOT1254, 1]
+[EL Fine]: sql: 2020-12-09 20:11:00.052--ClientSession(2027395771)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--select lastval()
+[EL Fine]: sql: 2020-12-09 20:11:04.805--ServerSession(672729160)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ANO, DISPONIVEIS, MARCA, MODELO, PLACA, VERSAO FROM tb_veiculo_20162370022_20171370027 ORDER BY ID
+[EL Fine]: sql: 2020-12-09 20:11:14.795--ServerSession(672729160)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DATAALUGUEL, DATADEVOLUCAO, VALORDIARIA, cliente_id, veiculo_id FROM tb_aluguel_20162370022_20171370027
+[EL Fine]: sql: 2020-12-09 20:11:22.842--ServerSession(672729160)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, CPF, ENDERECO, NASCIMENTO, NOME FROM tb_cliente_20162370022_20171370027 ORDER BY ID
+[EL Fine]: sql: 2020-12-09 20:11:31.951--ServerSession(672729160)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ANO, DISPONIVEIS, MARCA, MODELO, PLACA, VERSAO FROM tb_veiculo_20162370022_20171370027 ORDER BY ID
+[EL Fine]: sql: 2020-12-09 20:11:53.415--ServerSession(672729160)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, CPF, ENDERECO, NASCIMENTO, NOME FROM tb_cliente_20162370022_20171370027 WHERE (CPF = ?)
+	bind => [12458963258]
+[EL Fine]: sql: 2020-12-09 20:11:53.481--ServerSession(672729160)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ANO, DISPONIVEIS, MARCA, MODELO, PLACA, VERSAO FROM tb_veiculo_20162370022_20171370027 WHERE (PLACA = ?)
+	bind => [IOT1254]
+[EL Fine]: sql: 2020-12-09 20:11:53.572--ServerSession(672729160)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ANO, DISPONIVEIS, MARCA, MODELO, PLACA, VERSAO FROM tb_veiculo_20162370022_20171370027 WHERE (PLACA = ?)
+	bind => [IOT1254]
+[EL Fine]: sql: 2020-12-09 20:11:53.635--ServerSession(672729160)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.DATAALUGUEL, t1.DATADEVOLUCAO, t1.VALORDIARIA, t1.cliente_id, t1.veiculo_id FROM tb_veiculo_20162370022_20171370027 t0, tb_aluguel_20162370022_20171370027 t1 WHERE ((t0.PLACA = ?) AND (t0.ID = t1.veiculo_id))
+	bind => [IOT1254]
+[EL Fine]: sql: 2020-12-09 20:11:53.705--ServerSession(672729160)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, CPF, ENDERECO, NASCIMENTO, NOME FROM tb_cliente_20162370022_20171370027 WHERE (CPF = ?)
+	bind => [12458963258]
+[EL Fine]: sql: 2020-12-09 20:11:53.801--ClientSession(8151582)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--INSERT INTO tb_aluguel_20162370022_20171370027 (DATAALUGUEL, DATADEVOLUCAO, VALORDIARIA, cliente_id, veiculo_id) VALUES (?, ?, ?, ?, ?)
+	bind => [2020-12-09, 2020-12-23, 125.0, 6, 5]
+[EL Fine]: sql: 2020-12-09 20:11:53.864--ClientSession(8151582)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--select lastval()
+[EL Fine]: sql: 2020-12-09 20:11:53.924--ClientSession(8151582)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--UPDATE tb_aluguel_20162370022_20171370027 SET cliente_id = ? WHERE (ID = ?)
+	bind => [6, 5]
+[EL Fine]: sql: 2020-12-09 20:11:58.151--ServerSession(672729160)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, DATAALUGUEL, DATADEVOLUCAO, VALORDIARIA, cliente_id, veiculo_id FROM tb_aluguel_20162370022_20171370027
+[EL Fine]: connection: 2020-12-09 20:12:33.015--ServerSession(672729160)--Connection(416805408)--Thread(Thread[AWT-EventQueue-0,6,main])--disconnect
+[EL Fine]: connection: 2020-12-09 20:12:33.016--ServerSession(672729160)--Thread(Thread[AWT-EventQueue-0,6,main])--/file:/C:/Users/Mateu/Downloads/Semana10-trigger/projetoAluguel-JPA/target/classes/_agenda-eclipselink-postgres logout successful
+[EL Fine]: connection: 2020-12-09 20:12:33.016--ServerSession(672729160)--Connection(167303127)--Thread(Thread[AWT-EventQueue-0,6,main])--disconnect

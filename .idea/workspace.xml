@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="940f405d-f532-4fde-a555-e66eea1c6ad0" name="Default Changelist" comment="" />
+    <list default="true" id="940f405d-f532-4fde-a555-e66eea1c6ad0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddl.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ddl.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aplicacaoConsole/Alterar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aplicacaoConsole/Alterar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aplicacaoConsole/Cadastrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aplicacaoConsole/Cadastrar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aplicacaoConsole/Consultar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aplicacaoConsole/Consultar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aplicacaoConsole/Deletar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aplicacaoConsole/Deletar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aplicacaoSwing/TelaCadastrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aplicacaoSwing/TelaCadastrarCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aplicacaoSwing/TelaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aplicacaoSwing/TelaPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/daojpa/DAOCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/daojpa/DAOCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/daojpa/Trigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/daojpa/Trigger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fachada/Fachada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fachada/Fachada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imagens/imagem.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Aluguel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Aluguel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Veiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Veiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aplicacaoConsole/Alterar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aplicacaoConsole/Alterar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aplicacaoConsole/Cadastrar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aplicacaoConsole/Cadastrar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aplicacaoConsole/Consultar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aplicacaoConsole/Consultar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aplicacaoSwing/TelaCadastrar$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aplicacaoSwing/TelaCadastrar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aplicacaoSwing/TelaPrincipal$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aplicacaoSwing/TelaPrincipal$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aplicacaoSwing/TelaPrincipal$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aplicacaoSwing/TelaPrincipal$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aplicacaoSwing/TelaPrincipal$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aplicacaoSwing/TelaPrincipal$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aplicacaoSwing/TelaPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aplicacaoSwing/TelaPrincipal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/daojpa/DAOCliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/daojpa/DAOCliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/daojpa/Trigger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/daojpa/Trigger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fachada/Fachada.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fachada/Fachada.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/imagens/imagem.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modelo/Aluguel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modelo/Aluguel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modelo/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modelo/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modelo/Veiculo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modelo/Veiculo.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +56,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kppZy886Y9miDs3NXrvwChnmxz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,13 +72,14 @@
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="agendajpa-dao" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.Deletar">
-    <configuration name="Alterar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aplicacaoConsole.Alterar" />
+  <component name="RunManager" selected="Application.TelaPrincipal">
+    <configuration name="Cadastrar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aplicacaoConsole.Cadastrar" />
       <module name="AgendaJPA-dao" />
       <extension name="coverage">
         <pattern>
@@ -50,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cadastrar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aplicacaoConsole.Cadastrar" />
+    <configuration name="Consultar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aplicacaoConsole.Consultar" />
       <module name="AgendaJPA-dao" />
       <extension name="coverage">
         <pattern>
@@ -90,7 +131,7 @@
       </method>
     </configuration>
     <configuration name="TelaCadastrar" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="aplicacaoSwing.TelaCadastrar" />
+      <option name="MAIN_CLASS_NAME" value="aplicacaoSwing.TelaCadastrarCliente" />
       <module name="AgendaJPA-dao" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,17 +154,17 @@
       <item itemvalue="Application.TelaCadastrar" />
       <item itemvalue="Application.Cadastrar" />
       <item itemvalue="Application.Listar" />
-      <item itemvalue="Application.TelaPrincipal" />
       <item itemvalue="Application.Deletar" />
-      <item itemvalue="Application.Alterar" />
+      <item itemvalue="Application.Consultar" />
+      <item itemvalue="Application.TelaPrincipal" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Deletar" />
+        <item itemvalue="Application.TelaPrincipal" />
+        <item itemvalue="Application.Consultar" />
         <item itemvalue="Application.Listar" />
         <item itemvalue="Application.Cadastrar" />
-        <item itemvalue="Application.Alterar" />
-        <item itemvalue="Application.TelaPrincipal" />
+        <item itemvalue="Application.Deletar" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +181,7 @@
       <workItem from="1606407586134" duration="12308000" />
       <workItem from="1606479982041" duration="6281000" />
       <workItem from="1606906037973" duration="16759000" />
-      <workItem from="1607115019830" duration="47324000" />
+      <workItem from="1607115019830" duration="71100000" />
     </task>
     <servers />
   </component>
@@ -160,38 +201,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1607121071490" />
-    <state width="1323" height="364" key="GridCell.Tab.0.bottom" timestamp="1607477853275">
+    <state width="1323" height="142" key="GridCell.Tab.0.bottom" timestamp="1607551787022">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="364" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607477853275" />
-    <state width="1323" height="364" key="GridCell.Tab.0.center" timestamp="1607477853275">
+    <state width="1323" height="142" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607551787022" />
+    <state width="1323" height="142" key="GridCell.Tab.0.center" timestamp="1607551787022">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="364" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607477853275" />
-    <state width="1323" height="364" key="GridCell.Tab.0.left" timestamp="1607477853275">
+    <state width="1323" height="142" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607551787022" />
+    <state width="1323" height="142" key="GridCell.Tab.0.left" timestamp="1607551787022">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="364" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607477853275" />
-    <state width="1323" height="364" key="GridCell.Tab.0.right" timestamp="1607477853275">
+    <state width="1323" height="142" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607551787022" />
+    <state width="1323" height="142" key="GridCell.Tab.0.right" timestamp="1607551787022">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="364" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607477853275" />
-    <state width="1323" height="364" key="GridCell.Tab.1.bottom" timestamp="1607477853275">
+    <state width="1323" height="142" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607551787022" />
+    <state width="1323" height="142" key="GridCell.Tab.1.bottom" timestamp="1607551786850">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="364" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607477853275" />
-    <state width="1323" height="364" key="GridCell.Tab.1.center" timestamp="1607477853275">
+    <state width="1323" height="142" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607551786850" />
+    <state width="1323" height="142" key="GridCell.Tab.1.center" timestamp="1607551786850">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="364" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607477853275" />
-    <state width="1323" height="364" key="GridCell.Tab.1.left" timestamp="1607477853275">
+    <state width="1323" height="142" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607551786850" />
+    <state width="1323" height="142" key="GridCell.Tab.1.left" timestamp="1607551786850">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="364" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607477853275" />
-    <state width="1323" height="364" key="GridCell.Tab.1.right" timestamp="1607477853275">
+    <state width="1323" height="142" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607551786850" />
+    <state width="1323" height="142" key="GridCell.Tab.1.right" timestamp="1607551786850">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="364" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607477853275" />
+    <state width="1323" height="142" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607551786850" />
     <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1606918160639">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

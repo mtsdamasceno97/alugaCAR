@@ -9,7 +9,7 @@ public class Deletar {
 	public Deletar(){
 		try {
 			Fachada.inicializar();
-			Fachada.excluirCliente("2568748712");
+			Fachada.excluirCliente("3558748712");
 			System.out.println("cliente deletado!!!");
 
 			Fachada.excluirVeiculo("AYT5578");

@@ -15,8 +15,9 @@ public class Consultar {
 		
 		try {
 			Fachada.inicializar();
-			System.out.println("1.\n"+Fachada.consultarClientesPorCpf("22563258971") );
-
+			System.out.println("1.\n"+Fachada.consultarClientesPorCpf("25687487125") );
+			//Consulta que percorre as três classes
+			System.out.println(Fachada.clientesAlugueis());
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}finally {
